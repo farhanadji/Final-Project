@@ -1,0 +1,90 @@
+body { 
+    background: url(/image/bgimage.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  html{
+      user-select: none;
+  }
+
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+  }
+    
+.navbar {
+    background-color: transparent;
+}
+
+.text-home {
+    padding-top: 300px;
+    color: #757575;
+}
+
+.img-slider {
+    margin-top: 30px;
+    padding: 60px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.icon-bar {
+    color: #5826c7;
+    border-color: #5826c7;
+    background-color: #5826c7;
+  }
+
+  .btn-outline-primary {
+    color: #5826c7;
+    background-color: transparent;
+    background-image: none;
+    border-color: #5826c7;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: #5826c7;
+    border-color: #5826c7;
+}
+.btn-outline-primary:active {
+    color: white;
+    background-color: #5826c7;
+    border-color: #5826c7;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: #5826c7;
+}
+
+.nav-link {
+    margin: 0px 20px 0px 20px;
+    color: #5826c7;
+}
+
+.img-about {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.text-about {
+    margin-top: 220px; 
+    color: #757575;
+}
+
+.hi-text {
+    background: -webkit-linear-gradient(#5826c7, #4d62df);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#img-features {
+    margin-top: 150px;
+    margin-left: 20px;
+    width: 110%;
+}
